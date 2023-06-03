@@ -29,6 +29,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background-image: linear-gradient(to right bottom, #3d72c0, #357faa, #008793, #33b882, #a8eb12);
 }
 
 h1 {
@@ -53,6 +54,11 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+
+.error{
+  color: red;
+  font-size: 20px;
 }
 
 @media (prefers-color-scheme: light) {
